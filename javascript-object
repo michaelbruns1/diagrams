@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T07:19:33.682Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="06ADlYuiYxd9BWr_N1Cy" version="20.2.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-23T20:05:10.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4EfUs7vHVdQ-QJ2FgPZy" version="20.2.6" type="github" pages="7">
   <diagram id="CWwRGEhha9DnGWsu1DZ4" name="Page-1">
-    <mxGraphModel dx="771" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" value="Inheritance" parent="0" visible="0" />
@@ -366,7 +366,7 @@
         <mxCell id="O5uA1Lkx4UYyHK_mkfgk-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;const symb1 = Symbol.for(&quot;text identifier&quot;);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;const symb2 = Symbol.for(&quot;text identifier&quot;);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(symb1===symb2)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;//true, because the text identifiers are the same&lt;/span&gt;&lt;/div&gt;they point to the same symbol" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="685" y="965" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="O5uA1Lkx4UYyHK_mkfgk-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;const symb1 = Symbol.for(&quot;text identifier&quot;);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;let obj = {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;name: &quot;Steve&quot;,&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;[symb2]: new Date()&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;const symb2 = Symbol.for(&quot;text identifier&quot;);&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;obj[symb1]; //gets the date, because the text identifier is the same&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="O5uA1Lkx4UYyHK_mkfgk-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;const symb1 = Symbol.for(&quot;text identifier&quot;);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;let obj = {&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;name: &quot;Steve&quot;,&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;[symb2]: new Date()&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;const symb2 = Symbol.for(&quot;text identifier&quot;);&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;obj[symb1]; //gets the date, because the text identifier is the same&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="960" y="955" width="370" height="110" as="geometry" />
         </mxCell>
       </root>
@@ -439,112 +439,219 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-1" value="&lt;h2 style=&quot;box-sizing: border-box; margin: 2rem 0px 0.5rem; letter-spacing: var(--heading-letter-spacing); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-family: Inter, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; scroll-margin-top: var(--sticky-header-height); color: rgb(27, 27, 27); orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; id=&quot;objects&quot;&gt;&lt;a style=&quot;box-sizing: border-box; text-decoration: none; color: var(--text-primary); text-decoration-skip-ink: auto; width: fit-content;&quot; title=&quot;Permalink to Objects&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#objects&quot;&gt;Objects&lt;/a&gt;&lt;/h2&gt;&lt;div style=&quot;box-sizing: border-box; color: rgb(27, 27, 27); font-family: Inter, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; class=&quot;section-content&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 1rem 0px 2rem; font: var(--type-article-p);&quot;&gt;In computer science, an object is a value in memory which is possibly referenced by an&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;box-sizing: border-box; text-decoration: underline; color: var(--text-link); text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Glossary/Identifier&quot;&gt;identifier&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-1" value="&lt;h2 style=&quot;box-sizing: border-box; margin: 2rem 0px 0.5rem; letter-spacing: var(--heading-letter-spacing); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-family: Inter, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; scroll-margin-top: var(--sticky-header-height); color: rgb(27, 27, 27); orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; id=&quot;objects&quot;&gt;&lt;a style=&quot;box-sizing: border-box; text-decoration: none; color: var(--text-primary); text-decoration-skip-ink: auto; width: fit-content;&quot; title=&quot;Permalink to Objects&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#objects&quot;&gt;Objects&lt;/a&gt;&lt;/h2&gt;&lt;div style=&quot;box-sizing: border-box; color: rgb(27, 27, 27); font-family: Inter, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; class=&quot;section-content&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 1rem 0px 2rem; font: var(--type-article-p);&quot;&gt;In computer science, an object is a value in memory which is possibly referenced by an&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;box-sizing: border-box; text-decoration: underline; color: var(--text-link); text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Glossary/Identifier&quot;&gt;identifier&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="110" y="60" width="560" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-2" value="&lt;h3 style=&quot;box-sizing: border-box; margin: 2rem 0px 0.5rem; letter-spacing: var(--heading-letter-spacing); font-family: Inter, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; color: rgb(27, 27, 27); background-color: rgb(255, 255, 255);&quot; id=&quot;properties&quot;&gt;&lt;a style=&quot;box-sizing: border-box; text-decoration-line: none; text-decoration-skip-ink: auto; width: fit-content;&quot; title=&quot;Permalink to Properties&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#properties&quot;&gt;Properties&lt;/a&gt;&lt;/h3&gt;&lt;h3 style=&quot;box-sizing: border-box; margin: 2rem 0px 0.5rem; letter-spacing: var(--heading-letter-spacing); font-family: Inter, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; color: rgb(27, 27, 27); background-color: rgb(255, 255, 255);&quot; id=&quot;properties&quot;&gt;&lt;div style=&quot;box-sizing: border-box; font-size: 16px; font-weight: 400;&quot; class=&quot;section-content&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 1rem 0px 2rem; font: var(--type-article-p);&quot;&gt;In JavaScript, objects can be seen as a collection of properties. With the&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#object_literals&quot;&gt;object literal syntax&lt;/a&gt;, a limited set of properties are initialized; then properties can be added and removed. Property values can be values of any type, including other objects, which enables building complex data structures. Properties are identified using&amp;nbsp;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;key&lt;/em&gt;&amp;nbsp;values. A&amp;nbsp;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;key&lt;/em&gt;&amp;nbsp;value is either a&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Glossary/String&quot;&gt;String value&lt;/a&gt;&amp;nbsp;or a&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol&quot;&gt;Symbol value&lt;/a&gt;.&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 1rem 0px 2rem; font: var(--type-article-p);&quot;&gt;There are two types of object properties: The&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#data_property&quot;&gt;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;data&lt;/em&gt;&amp;nbsp;property&lt;/a&gt;&amp;nbsp;and the&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#accessor_property&quot;&gt;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;accessor&lt;/em&gt;&amp;nbsp;property&lt;/a&gt;. Each property has corresponding&amp;nbsp;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;attributes&lt;/em&gt;. Each attribute is accessed internally by the JavaScript engine, but you can set them through&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty&quot;&gt;&lt;code style=&quot;box-sizing: border-box; border-radius: var(--elem-radius); font-size: var(--type-base-font-size-rem); background: var(--code-background-inline); padding: 0.125rem 0.25rem; width: fit-content;&quot;&gt;Object.defineProperty()&lt;/code&gt;&lt;/a&gt;, or read them through&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor&quot;&gt;&lt;code style=&quot;box-sizing: border-box; border-radius: var(--elem-radius); font-size: var(--type-base-font-size-rem); background: var(--code-background-inline); padding: 0.125rem 0.25rem; width: fit-content;&quot;&gt;Object.getOwnPropertyDescriptor()&lt;/code&gt;&lt;/a&gt;. You can read more about the various nuances on the&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty&quot;&gt;&lt;code style=&quot;box-sizing: border-box; border-radius: var(--elem-radius); font-size: var(--type-base-font-size-rem); background: var(--code-background-inline); padding: 0.125rem 0.25rem; width: fit-content;&quot;&gt;Object.defineProperty()&lt;/code&gt;&lt;/a&gt;&amp;nbsp;page.&lt;/p&gt;&lt;/div&gt;&lt;/h3&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-2" value="&lt;h3 style=&quot;box-sizing: border-box; margin: 2rem 0px 0.5rem; letter-spacing: var(--heading-letter-spacing); font-family: Inter, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; color: rgb(27, 27, 27); background-color: rgb(255, 255, 255);&quot; id=&quot;properties&quot;&gt;&lt;a style=&quot;box-sizing: border-box; text-decoration-line: none; text-decoration-skip-ink: auto; width: fit-content;&quot; title=&quot;Permalink to Properties&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#properties&quot;&gt;Properties&lt;/a&gt;&lt;/h3&gt;&lt;h3 style=&quot;box-sizing: border-box; margin: 2rem 0px 0.5rem; letter-spacing: var(--heading-letter-spacing); font-family: Inter, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; color: rgb(27, 27, 27); background-color: rgb(255, 255, 255);&quot; id=&quot;properties&quot;&gt;&lt;div style=&quot;box-sizing: border-box; font-size: 16px; font-weight: 400;&quot; class=&quot;section-content&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 1rem 0px 2rem; font: var(--type-article-p);&quot;&gt;In JavaScript, objects can be seen as a collection of properties. With the&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#object_literals&quot;&gt;object literal syntax&lt;/a&gt;, a limited set of properties are initialized; then properties can be added and removed. Property values can be values of any type, including other objects, which enables building complex data structures. Properties are identified using&amp;nbsp;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;key&lt;/em&gt;&amp;nbsp;values. A&amp;nbsp;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;key&lt;/em&gt;&amp;nbsp;value is either a&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Glossary/String&quot;&gt;String value&lt;/a&gt;&amp;nbsp;or a&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol&quot;&gt;Symbol value&lt;/a&gt;.&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin: 1rem 0px 2rem; font: var(--type-article-p);&quot;&gt;There are two types of object properties: The&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#data_property&quot;&gt;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;data&lt;/em&gt;&amp;nbsp;property&lt;/a&gt;&amp;nbsp;and the&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#accessor_property&quot;&gt;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;accessor&lt;/em&gt;&amp;nbsp;property&lt;/a&gt;. Each property has corresponding&amp;nbsp;&lt;em style=&quot;box-sizing: border-box;&quot;&gt;attributes&lt;/em&gt;. Each attribute is accessed internally by the JavaScript engine, but you can set them through&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty&quot;&gt;&lt;code style=&quot;box-sizing: border-box; border-radius: var(--elem-radius); font-size: var(--type-base-font-size-rem); background: var(--code-background-inline); padding: 0.125rem 0.25rem; width: fit-content;&quot;&gt;Object.defineProperty()&lt;/code&gt;&lt;/a&gt;, or read them through&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor&quot;&gt;&lt;code style=&quot;box-sizing: border-box; border-radius: var(--elem-radius); font-size: var(--type-base-font-size-rem); background: var(--code-background-inline); padding: 0.125rem 0.25rem; width: fit-content;&quot;&gt;Object.getOwnPropertyDescriptor()&lt;/code&gt;&lt;/a&gt;. You can read more about the various nuances on the&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; text-decoration-skip-ink: auto; width: fit-content;&quot; href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty&quot;&gt;&lt;code style=&quot;box-sizing: border-box; border-radius: var(--elem-radius); font-size: var(--type-base-font-size-rem); background: var(--code-background-inline); padding: 0.125rem 0.25rem; width: fit-content;&quot;&gt;Object.defineProperty()&lt;/code&gt;&lt;/a&gt;&amp;nbsp;page.&lt;/p&gt;&lt;/div&gt;&lt;/h3&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="50" y="160" width="560" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-3" value="objects are a collection of properties" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-3" value="objects are a collection of properties" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="740" y="260" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-4" value="property values can be any type, including objects" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-4" value="property values can be any type, including objects" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="740" y="290" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-5" value="properties of objects with values of objects &lt;br&gt;are called complex data structures" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-5" value="properties of objects with values of objects &lt;br&gt;are called complex data structures" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="740" y="320" width="310" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-6" value="properties are identified using &lt;i&gt;key&lt;/i&gt;&amp;nbsp;values &lt;br&gt;(a String or Symbol value)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-6" value="properties are identified using &lt;i&gt;key&lt;/i&gt;&amp;nbsp;values &lt;br&gt;(a String or Symbol value)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="740" y="380" width="300" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-7" value="there are two types of object properties:&amp;nbsp;&lt;br&gt;- &lt;i&gt;data&lt;/i&gt;&amp;nbsp;properties&lt;br&gt;- &lt;i&gt;accessor&lt;/i&gt;&amp;nbsp;properties" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-7" value="there are two types of object properties:&amp;nbsp;&lt;br&gt;- &lt;i&gt;data&lt;/i&gt;&amp;nbsp;properties&lt;br&gt;- &lt;i&gt;accessor&lt;/i&gt;&amp;nbsp;properties" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="740" y="440" width="290" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-8" value="each property has a corresponding &lt;i style=&quot;font-size: 18px;&quot;&gt;attributes&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;container=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-8" value="each property has a corresponding &lt;i style=&quot;font-size: 18px;&quot;&gt;attributes&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;container=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="730" y="550" width="530" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-9" value="a property&#39;s attribute is accessed interally by the JS engine" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-8">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-9" value="a property&#39;s attribute is accessed interally by the JS engine" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="nJqaGzCi6D3yi0PNe2gf-8" vertex="1">
           <mxGeometry x="10" y="80" width="410" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-10" value="a property&#39;s attribute is set through &lt;b&gt;Object.defineProperty()&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-8">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-10" value="a property&#39;s attribute is set through &lt;b&gt;Object.defineProperty()&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="nJqaGzCi6D3yi0PNe2gf-8" vertex="1">
           <mxGeometry x="10" y="115" width="420" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-11" value="a property&#39;s attribute is read through &lt;b&gt;Object.getOwnPropertyDescriptor()&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-8">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-11" value="a property&#39;s attribute is read through &lt;b&gt;Object.getOwnPropertyDescriptor()&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="nJqaGzCi6D3yi0PNe2gf-8" vertex="1">
           <mxGeometry x="10" y="155" width="520" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-12" value="Data properties attributes" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=15;fillColor=#DAE8FC;" vertex="1" parent="1">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-12" value="Data properties attributes" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=15;fillColor=#DAE8FC;" parent="1" vertex="1">
           <mxGeometry x="40" y="550" width="630" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-12">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" parent="nJqaGzCi6D3yi0PNe2gf-12" vertex="1">
           <mxGeometry y="30" width="630" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-14" value="value" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-13">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-14" value="value" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" parent="nJqaGzCi6D3yi0PNe2gf-13" vertex="1">
           <mxGeometry width="140" height="60" as="geometry">
             <mxRectangle width="140" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-15" value="any" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-13">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-15" value="any" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" parent="nJqaGzCi6D3yi0PNe2gf-13" vertex="1">
           <mxGeometry x="140" width="110" height="60" as="geometry">
             <mxRectangle width="110" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-16" value="value retrieved by a get access of a property" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=15;align=center;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-13">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-16" value="value retrieved by a get access of a property" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=15;align=center;" parent="nJqaGzCi6D3yi0PNe2gf-13" vertex="1">
           <mxGeometry x="250" width="380" height="60" as="geometry">
             <mxRectangle width="380" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-12">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" parent="nJqaGzCi6D3yi0PNe2gf-12" vertex="1">
           <mxGeometry y="90" width="630" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-18" value="writable" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-17">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-18" value="writable" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" parent="nJqaGzCi6D3yi0PNe2gf-17" vertex="1">
           <mxGeometry width="140" height="40" as="geometry">
             <mxRectangle width="140" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-19" value="boolean" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-17">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-19" value="boolean" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" parent="nJqaGzCi6D3yi0PNe2gf-17" vertex="1">
           <mxGeometry x="140" width="110" height="40" as="geometry">
             <mxRectangle width="110" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-20" value="indicating if the property can be changed with an assignment" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=15;align=center;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-17">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-20" value="indicating if the property can be changed with an assignment" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=15;align=center;" parent="nJqaGzCi6D3yi0PNe2gf-17" vertex="1">
           <mxGeometry x="250" width="380" height="40" as="geometry">
             <mxRectangle width="380" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-21" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-12">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-21" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" parent="nJqaGzCi6D3yi0PNe2gf-12" vertex="1">
           <mxGeometry y="130" width="630" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-22" value="enumerable" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-21">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-22" value="enumerable" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" parent="nJqaGzCi6D3yi0PNe2gf-21" vertex="1">
           <mxGeometry width="140" height="40" as="geometry">
             <mxRectangle width="140" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-23" value="boolean" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-21">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-23" value="boolean" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" parent="nJqaGzCi6D3yi0PNe2gf-21" vertex="1">
           <mxGeometry x="140" width="110" height="40" as="geometry">
             <mxRectangle width="110" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-24" value="indicating if the property can be enumerated with for...in loop" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=15;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-21">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-24" value="indicating if the property can be enumerated with for...in loop" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=15;" parent="nJqaGzCi6D3yi0PNe2gf-21" vertex="1">
           <mxGeometry x="250" width="380" height="40" as="geometry">
             <mxRectangle width="380" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-12">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" parent="nJqaGzCi6D3yi0PNe2gf-12" vertex="1">
           <mxGeometry y="170" width="630" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-26" value="configurable" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-25">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-26" value="configurable" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" parent="nJqaGzCi6D3yi0PNe2gf-25" vertex="1">
           <mxGeometry width="140" height="40" as="geometry">
             <mxRectangle width="140" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-27" value="boolean" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-25">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-27" value="boolean" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=18;" parent="nJqaGzCi6D3yi0PNe2gf-25" vertex="1">
           <mxGeometry x="140" width="110" height="40" as="geometry">
             <mxRectangle width="110" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJqaGzCi6D3yi0PNe2gf-28" value="indicating if the property can be deleted, changed to an accessor property, and can have its attributes changes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=15;" vertex="1" parent="nJqaGzCi6D3yi0PNe2gf-25">
+        <mxCell id="nJqaGzCi6D3yi0PNe2gf-28" value="indicating if the property can be deleted, changed to an accessor property, and can have its attributes changes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;glass=0;labelBackgroundColor=#DAE8FC;fontSize=15;" parent="nJqaGzCi6D3yi0PNe2gf-25" vertex="1">
           <mxGeometry x="250" width="380" height="40" as="geometry">
             <mxRectangle width="380" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iQPdHSXPYcysVSb3R2d-" name="HTML Element">
+    <mxGraphModel dx="981" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-1" value="Create new HTML" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="40" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-2" value="1: Select the main output" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-3" value="2: Create the input element" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-4" value="3: Append the input element to the output" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-5" value="const output = document.querySelector(&#39;.output&#39;);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-6" value="const myInput = document.createElement(&#39;input&#39;);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="130" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-7" value="const val1 = output.appendChild(myInput);" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="170" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-8" value="Append vs AppendChild" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="300" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-9" value="append (after) prepend (before) child (return)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="75" y="340" width="305" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-9">
+          <mxGeometry y="30" width="305" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-11" value="append" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;metaEdit=0;enumerate=0;part=0;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-10">
+          <mxGeometry width="102" height="40" as="geometry">
+            <mxRectangle width="102" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-12" value="return null" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-10">
+          <mxGeometry x="102" width="101" height="40" as="geometry">
+            <mxRectangle width="101" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-13" value="adds to end of output" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-10">
+          <mxGeometry x="203" width="102" height="40" as="geometry">
+            <mxRectangle width="102" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-9">
+          <mxGeometry y="70" width="305" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-15" value="appendChild" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-14">
+          <mxGeometry width="102" height="40" as="geometry">
+            <mxRectangle width="102" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-16" value="return element" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-14">
+          <mxGeometry x="102" width="101" height="40" as="geometry">
+            <mxRectangle width="101" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-17" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;adds to end of output&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-14">
+          <mxGeometry x="203" width="102" height="40" as="geometry">
+            <mxRectangle width="102" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-18" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-9">
+          <mxGeometry y="110" width="305" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-19" value="prepend" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-18">
+          <mxGeometry width="102" height="40" as="geometry">
+            <mxRectangle width="102" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-20" value="return null" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-18">
+          <mxGeometry x="102" width="101" height="40" as="geometry">
+            <mxRectangle width="101" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-21" value="adds to beginning of output" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-18">
+          <mxGeometry x="203" width="102" height="40" as="geometry">
+            <mxRectangle width="102" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-22" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-9">
+          <mxGeometry y="150" width="305" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-23" value="prependChild" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-22">
+          <mxGeometry width="102" height="40" as="geometry">
+            <mxRectangle width="102" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-24" value="return element" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-22">
+          <mxGeometry x="102" width="101" height="40" as="geometry">
+            <mxRectangle width="101" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9yg0pdoCNN2OrPCA6kw-25" value="adds to beginning out output" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="B9yg0pdoCNN2OrPCA6kw-22">
+          <mxGeometry x="203" width="102" height="40" as="geometry">
+            <mxRectangle width="102" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
