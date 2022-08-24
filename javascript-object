@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T04:05:09.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="90FC_65PGfbg7VZFqhJ8" version="20.2.6" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-08-24T04:09:16.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="W8tl6Bc0otjuNdCXgd6O" version="20.2.6" type="github" pages="16">
   <diagram id="CWwRGEhha9DnGWsu1DZ4" name="Page-1">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -990,13 +990,38 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3DQ7aihY6XuZI_Py7hBN" name="Composable Components">
-    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1497" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <UserObject label="https://bit.dev/docs/components/component-overview#from-files-to-components" link="https://bit.dev/docs/components/component-overview#from-files-to-components" id="eZl-ozNBuTVKg41Xjjyy-1">
           <mxCell style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
             <mxGeometry x="90" y="40" width="560" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="https://drive.google.com/file/d/18qckNRFUl7cM-XHdBNGrTzy31wVImiJ8/view?usp=sharing" link="https://drive.google.com/file/d/18qckNRFUl7cM-XHdBNGrTzy31wVImiJ8/view?usp=sharing" id="eZl-ozNBuTVKg41Xjjyy-2">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+            <mxGeometry x="120" y="240" width="560" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="https://bit.dev/docs/scope/scope-overview/" link="https://bit.dev/docs/scope/scope-overview/" id="eZl-ozNBuTVKg41Xjjyy-3">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+            <mxGeometry x="230" y="360" width="410" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="https://jsonapi.org/extensions/#extensions" link="https://jsonapi.org/extensions/#extensions" id="eZl-ozNBuTVKg41Xjjyy-4">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+            <mxGeometry x="220" y="480" width="400" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="https://javascript.plainenglish.io/design-tokens-in-a-react-component-design-system-the-right-way-f55d392fb540" link="https://javascript.plainenglish.io/design-tokens-in-a-react-component-design-system-the-right-way-f55d392fb540" id="eZl-ozNBuTVKg41Xjjyy-5">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+            <mxGeometry x="110" y="120" width="560" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="https://m3.material.io/foundations/design-tokens/overview" link="https://m3.material.io/foundations/design-tokens/overview" id="eZl-ozNBuTVKg41Xjjyy-6">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+            <mxGeometry x="110" y="520" width="560" height="50" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
