@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T03:40:12.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="QwXGNIyX6bVmP9hhN8CT" version="20.2.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-08-24T04:04:58.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ZkTijfV7g5CDdSc1DvW0" version="20.2.6" type="github" pages="16">
   <diagram id="CWwRGEhha9DnGWsu1DZ4" name="Page-1">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -933,7 +933,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="EUkNA7d1pgMiDoQTLxD7" name="Page-13">
+  <diagram id="EUkNA7d1pgMiDoQTLxD7" name="BOXMODEL">
     <mxGraphModel dx="1185" dy="1728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -953,7 +953,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="rWXhYg4a6Y8P1aW2TP8X" name="Page-14">
+  <diagram id="rWXhYg4a6Y8P1aW2TP8X" name="Borders">
     <mxGraphModel dx="3694" dy="1508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -975,7 +975,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="6Ae8SHfhViERH6L1FUAk" name="Page-15">
+  <diagram id="6Ae8SHfhViERH6L1FUAk" name="BOX Dimensions">
     <mxGraphModel dx="1053" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -986,6 +986,19 @@
         <mxCell id="ci8pIuxiN_j73lYEhFLS-2" value="&lt;h2 style=&quot;text-align: left; color: rgb(0, 90, 156); background: rgb(255, 255, 255); font: 22.4px sans-serif; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;8.1&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a name=&quot;box-dimensions&quot;&gt;Box dimensions&lt;/a&gt;&lt;/h2&gt;&lt;p style=&quot;color: rgb(0, 0, 0); font-family: sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Each box has a&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span title=&quot;box::content|content::of a box&quot; class=&quot;index-def&quot;&gt;&lt;a name=&quot;box-content-area&quot;&gt;&lt;dfn&gt;content area&lt;/dfn&gt;&lt;/a&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;(e.g., text, an image, etc.) and optional surrounding&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span title=&quot;box::padding|padding::of a box&quot; class=&quot;index-def&quot;&gt;&lt;a name=&quot;box-padding-area&quot;&gt;&lt;dfn&gt;padding&lt;/dfn&gt;&lt;/a&gt;&lt;/span&gt;,&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span title=&quot;box::border|border::of a box&quot; class=&quot;index-def&quot;&gt;&lt;a name=&quot;box-border-area&quot;&gt;&lt;dfn&gt;border&lt;/dfn&gt;&lt;/a&gt;&lt;/span&gt;, and&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span title=&quot;box::margin|margin::of a box&quot; class=&quot;index-def&quot;&gt;&lt;a name=&quot;box-margin-area&quot;&gt;&lt;dfn&gt;margin&lt;/dfn&gt;&lt;/a&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;areas; the size of each area is specified by properties defined below. The following diagram shows how these areas relate and the terminology used to refer to pieces of margin, border, and padding:&lt;/p&gt;&lt;div style=&quot;text-align: center; margin: 2.5em 0px; color: rgb(0, 0, 0); font-family: sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; class=&quot;figure&quot;&gt;&lt;p&gt;&lt;img style=&quot;border: 0px;&quot; alt=&quot;Image illustrating the relationship between content, padding, borders, and margins.&quot; src=&quot;https://www.w3.org/TR/CSS2/images/boxdim.png&quot;&gt;&lt;/p&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="100" y="560" width="560" height="230" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3DQ7aihY6XuZI_Py7hBN" name="Page-16">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="https://bit.dev/docs/components/component-overview#from-files-to-components" link="https://bit.dev/docs/components/component-overview#from-files-to-components" id="eZl-ozNBuTVKg41Xjjyy-1">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+            <mxGeometry x="90" y="40" width="560" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
