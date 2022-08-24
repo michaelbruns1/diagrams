@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T04:09:16.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="W8tl6Bc0otjuNdCXgd6O" version="20.2.6" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-08-24T04:45:32.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_CP3jtbZi1MJGkQrUpL-" version="20.2.6" type="github" pages="16">
   <diagram id="CWwRGEhha9DnGWsu1DZ4" name="Page-1">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -1022,6 +1022,11 @@
         <UserObject label="https://m3.material.io/foundations/design-tokens/overview" link="https://m3.material.io/foundations/design-tokens/overview" id="eZl-ozNBuTVKg41Xjjyy-6">
           <mxCell style="text;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
             <mxGeometry x="110" y="520" width="560" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="https://www.uxpin.com/docs/design-systems/design-systems/#editing-a-design-system" link="https://www.uxpin.com/docs/design-systems/design-systems/#editing-a-design-system" id="eZl-ozNBuTVKg41Xjjyy-8">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+            <mxGeometry x="155" y="580" width="490" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
