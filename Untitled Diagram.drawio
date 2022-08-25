@@ -1,17 +1,123 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T16:54:34.686Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="S98m98jCFn1LlaWbsjhr" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-25T03:55:20.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Mv7GatfO_S16FTPu5pxV" version="20.2.6" type="github" pages="5">
   <diagram id="_lEzBtKeytYTrFOyNZK7" name="Page-1">
-    <mxGraphModel dx="2188" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1778" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nwnsQMDqynVd4yP-KLPJ-4" value="&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=0;spacingBottom=0;" parent="1" vertex="1">
-          <mxGeometry width="1600" height="100" as="geometry" />
+        <mxCell id="nwnsQMDqynVd4yP-KLPJ-4" value="&#xa;&lt;h1 style=&quot;box-sizing: border-box; margin: calc(var(--content-rhythm) / 2) 0; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; padding: 0px; font-weight: var(--fw-bold); line-height: var(--lh-tight); font-size: 1.75em; color: rgb(23, 23, 23); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;CJS&lt;/h1&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=0;spacingBottom=0;container=1;align=center;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="620" height="495" as="geometry">
+            <mxRectangle x="10" y="10" width="70" height="60" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="nwnsQMDqynVd4yP-KLPJ-5" value="&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=0;spacingBottom=0;" parent="1" vertex="1">
-          <mxGeometry y="800" width="1600" height="100" as="geometry" />
+        <mxCell id="4d3lwY7rjP7gSteMc4W--1" value="&#xa;&lt;p style=&quot;box-sizing: border-box; margin: 0 0 var(--content-rhythm) 0; color: rgb(23, 23, 23); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 22.5px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;CJS is short for CommonJS. Here is what it looks like:&lt;br style=&quot;box-sizing: border-box;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;box-sizing: border-box; background-image: ; background-position-x: ; background-position-y: ; background-size: ; background-repeat-x: ; background-repeat-y: ; background-attachment: ; background-origin: ; background-clip: ; color: var(--syntax-text-color); font-size: 18px; border-radius: var(--radius); margin: 0 0 var(--content-rhythm) 0; overflow-x: auto; overflow-wrap: initial; padding: var(--su-6); position: relative; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; class=&quot;highlight js-code-highlight&quot;&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&#xa;&#xa;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;spacingLeft=0;spacingBottom=0;labelBackgroundColor=none;labelBorderColor=none;container=1;strokeColor=default;" vertex="1" parent="nwnsQMDqynVd4yP-KLPJ-4">
+          <mxGeometry x="30" y="115" width="560" height="315" as="geometry">
+            <mxRectangle x="30" y="115" width="560" height="120" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="PvwgQf6hmHfbhYGi6YLR-1" value="&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=0;spacingBottom=0;" vertex="1" parent="1">
-          <mxGeometry y="440" width="1600" height="100" as="geometry" />
+        <mxCell id="4d3lwY7rjP7gSteMc4W--7" value="&lt;div&gt;//importing&amp;nbsp;&lt;/div&gt;&lt;div&gt;const doSomething = require(&#39;./doSomething.js&#39;);&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;//exporting&lt;/div&gt;&lt;div&gt;module.exports = function doSomething(n) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; // do something&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBorderColor=default;spacing=5;" vertex="1" parent="4d3lwY7rjP7gSteMc4W--1">
+          <mxGeometry x="110" y="180" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1SpeOS2oMMBDRiLJgtC0-7" value="Tree Container" style="swimlane;startSize=20;horizontal=1;containerType=tree;labelBackgroundColor=none;labelBorderColor=default;strokeColor=default;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="570" width="400" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="1SpeOS2oMMBDRiLJgtC0-8" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;" edge="1" parent="1SpeOS2oMMBDRiLJgtC0-7" source="1SpeOS2oMMBDRiLJgtC0-9" target="1SpeOS2oMMBDRiLJgtC0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1SpeOS2oMMBDRiLJgtC0-9" value="Parent" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;labelBorderColor=default;strokeColor=default;strokeWidth=2;fillColor=none;" vertex="1" parent="1SpeOS2oMMBDRiLJgtC0-7">
+          <mxGeometry x="130" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1SpeOS2oMMBDRiLJgtC0-10" value="Child" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;labelBorderColor=default;strokeColor=default;strokeWidth=2;fillColor=none;" vertex="1" parent="1SpeOS2oMMBDRiLJgtC0-7">
+          <mxGeometry x="130" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1SpeOS2oMMBDRiLJgtC0-11" value="Child Child" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=none;labelBorderColor=default;strokeColor=default;strokeWidth=2;fillColor=none;" vertex="1" parent="1SpeOS2oMMBDRiLJgtC0-7">
+          <mxGeometry x="130" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1SpeOS2oMMBDRiLJgtC0-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1SpeOS2oMMBDRiLJgtC0-7" source="1SpeOS2oMMBDRiLJgtC0-10" target="1SpeOS2oMMBDRiLJgtC0-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="90.00000000000011" as="sourcePoint" />
+            <mxPoint x="190" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PgW-JJS8YYEeUViuzFC8" name="Page-2">
+    <mxGraphModel dx="677" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vqunKvxI235pbjuJBx6x-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://courses.edx.org/assets/courseware/v1/9df11f203d18addb831da2f379cb49a5/asset-v1:W3Cx+JS.0x+2T2022+type@asset+block/diagram-element.png;strokeWidth=2;fillColor=none;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="520" height="284" as="geometry" />
+        </mxCell>
+        <mxCell id="vqunKvxI235pbjuJBx6x-2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=#6c8ebf;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="284" y="304" width="73" height="58" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9d-rf6JmdltzQveRYRFD" name="Page-3">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5nqOkucB81tBF59Kh8T8-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.rrect;rSize=0;strokeColor=#666666;labelBackgroundColor=none;labelBorderColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="240" width="100" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="5nqOkucB81tBF59Kh8T8-2" value="Group 1" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.rrect;rSize=0;fontSize=17;fontColor=#666666;fontStyle=1;resizeWidth=1;labelBackgroundColor=none;labelBorderColor=default;" vertex="1" parent="5nqOkucB81tBF59Kh8T8-1">
+          <mxGeometry width="100" height="26" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5nqOkucB81tBF59Kh8T8-3" value="Group 2" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.rrect;rSize=0;fontSize=17;fontColor=#666666;fontStyle=1;resizeWidth=1;labelBackgroundColor=none;labelBorderColor=default;part=0;" vertex="1" parent="5nqOkucB81tBF59Kh8T8-1">
+          <mxGeometry width="100" height="26" relative="1" as="geometry">
+            <mxPoint y="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5nqOkucB81tBF59Kh8T8-4" value="Group 3" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.rrect;rSize=0;fontSize=17;fontColor=#ffffff;fontStyle=1;fillColor=#008cff;strokeColor=#008cff;resizeWidth=1;labelBackgroundColor=none;labelBorderColor=default;" vertex="1" parent="5nqOkucB81tBF59Kh8T8-1">
+          <mxGeometry width="100" height="26" relative="1" as="geometry">
+            <mxPoint y="52" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5nqOkucB81tBF59Kh8T8-5" value="Group 4" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.rrect;rSize=0;fontSize=17;fontColor=#666666;fontStyle=1;resizeWidth=1;labelBackgroundColor=none;labelBorderColor=default;" vertex="1" parent="5nqOkucB81tBF59Kh8T8-1">
+          <mxGeometry y="1" width="100" height="26" relative="1" as="geometry">
+            <mxPoint y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IwrUrChBAs0Ua-a2BWoj" name="Page-4">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vuh5XMrYaGDxAMXZWLMa-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://courses.edx.org/assets/courseware/v1/9df11f203d18addb831da2f379cb49a5/asset-v1:W3Cx+JS.0x+2T2022+type@asset+block/diagram-element.png;" vertex="1" parent="1">
+          <mxGeometry x="650" y="490" width="520" height="284" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6Xyy3fiLh29vbsiA-8Gd" name="Page-5">
+    <mxGraphModel dx="2585" dy="1371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="820x_Uy6Gc-rX6BdasYU-1" value="" style="swimlane;startSize=0;labelBackgroundColor=none;labelBorderColor=default;strokeColor=default;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="273" y="160" width="555" height="410" as="geometry">
+            <mxRectangle x="1050" y="80" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="820x_Uy6Gc-rX6BdasYU-2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=default;strokeWidth=2;fillColor=none;" vertex="1" parent="820x_Uy6Gc-rX6BdasYU-1">
+          <mxGeometry x="390" y="265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="820x_Uy6Gc-rX6BdasYU-3" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=default;strokeColor=default;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="23" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="820x_Uy6Gc-rX6BdasYU-4" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="820x_Uy6Gc-rX6BdasYU-3" target="820x_Uy6Gc-rX6BdasYU-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="193" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="820x_Uy6Gc-rX6BdasYU-5" value="&amp;lt;/&amp;gt;" style="rounded=1;arcSize=0;fillColor=#0065FF;strokeColor=none;fontColor=#ffffff;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;html=1;sketch=0;labelBackgroundColor=none;labelBorderColor=default;" vertex="1" parent="1">
+          <mxGeometry x="143" y="400" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
